@@ -781,6 +781,10 @@ form[name="backdrop_form"] label {
     flex-direction: column;
 }
 
+.modal-backdrop .form-field:last-child {
+    margin-bottom: 16px;
+}
+
 .modal-backdrop .form-field input,
 .modal-backdrop .form-field input,
 .modal-backdrop .form-field input,
@@ -806,7 +810,6 @@ form[name="backdrop_form"] label {
 }
 
 .modal-backdrop .form-field textarea {
-    margin-bottom: 16px;
     padding: 8px 16px;
     max-height: 120px;
     resize: none;
